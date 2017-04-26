@@ -1,0 +1,101 @@
+RT
+
+scene
+	ambiant_rgb				0.2		0.2		0.2
+	refr_index				1
+	background_rgb			0.5		0.2		0.5
+	antialiasing			1
+
+camera
+	origin_xyz				-10		15		0
+	rotation_xyz			0		0		-20
+	distance_viewplane		1
+
+light
+	name					red
+	type					sphere
+	typel					0
+	color_rgb				1		0		0
+	scale					1
+	translate_xyz			-10		10		10
+	rotation_xyz			0		0		-20
+
+light
+	name					red
+	type					sphere
+	typel					0
+	color_rgb				0		1		0
+	scale					1
+	translate_xyz			-10		10		0
+	rotation_xyz			0		0		-20
+
+light
+	name					red
+	type					sphere
+	typel					0
+	color_rgb				0		0		1
+	scale					1
+	translate_xyz			-10		10		-10
+	rotation_xyz			0		0		-20
+
+ object
+	name					plan
+	type					plane
+	color_rgb				0.2		0.7		0.3
+	scale_xyz				1		1		1
+	translate_xyz			0		0		0
+	rotation_xyz			0		180		90
+	k_ads					0.2		0.9		0
+	i						0
+	t						0
+	shininess				0
+	refraction_index		1
+	tex_texture				1
+	tex_bump				0
+	tex_transp				0
+	tex_col1				1		1		1
+	tex_col2				0		0		0
+	tex_col3				0.5		0.5		0.5
+	square					2
+
+object
+	name					bas
+	type					cone
+	color_rgb				0.8		0.8		0.8
+	scale_xyz				1.5		1.5		1.5
+	translate_xyz			30		0		0
+	rotation_xyz			-90		0		0
+	k_ads					0.2		0.9		0
+	i						0
+	t						0.5
+	shininess				0
+	refraction_index		1
+	tex_texture				0
+	tex_bump				0
+	tex_transp				0
+	tex_col1				1		1		1
+	tex_col2				0		0		0
+	tex_col3				0.5		0.5		0.5
+	z_min					0
+	z_max					3
+
+object
+	name					haut
+	type					cone
+	color_rgb				0.8		0.8		0.8
+	scale_xyz				1.5		1.5		1.5
+	translate_xyz			30		9		0
+	rotation_xyz			90		0		0
+	k_ads					0.2		0.9		0
+	i						0
+	t						0.5
+	shininess				0
+	refraction_index		1
+	tex_texture				0
+	tex_bump				0
+	tex_transp				0
+	tex_col1				1		1		1
+	tex_col2				0		0		0
+	tex_col3				0.5		0.5		0.5
+	z_min					2
+	z_max					3

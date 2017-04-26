@@ -1,0 +1,152 @@
+RT
+#
+#		QUAND IL Y A UN	'#' DANS
+#			   LA LIGNE, ELLE
+#        	 NE COMPTE PAS
+#
+
+scene
+	ambiant_rgb				1		1		1
+	refr_index				1
+	background_rgb			0		0		0
+	antialiasing			1
+
+camera
+	origin_xyz				-6		12		0
+	rotation_xyz			0		0		-25
+	distance_viewplane		1
+
+light
+	name					red
+	type					sphere
+	typel					0
+	color_rgb				1		1		1
+	scale					1
+	translate_xyz			-10		10		0
+	rotation_xyz			0		0		-20
+
+object
+	name					olive
+	type					sphere
+	color_rgb				0.827	0.827	0.443
+	scale_xyz				0.7		0.7		0.7
+	translate_xyz			10		6.5		0
+	rotation_xyz			90		0		0
+	k_ads					0.2		0.9		0
+	i						0
+	t						0.3
+	shininess				65
+	refraction_index		1.33
+	tex_texture				0
+	tex_bump				0
+	tex_transp				0
+	tex_col1				1		1		1
+	tex_col2				0		0		0
+	tex_col3				0.5		0.5		0.5
+
+object
+	name					cure_dent
+	type					cylindre
+	color_rgb				0.796	0.686	0.592
+	scale_xyz				0.04	0.04	0.04
+	translate_xyz			10		6.5		0
+	rotation_xyz			-35		-10		0
+	k_ads					0.2		0.9		0
+	i						0
+	t						0.5
+	shininess				65
+	refraction_index		1.33
+	tex_texture				0
+	tex_bump				0
+	tex_transp				0
+	tex_col1				1		1		1
+	tex_col2				0		0		0
+	tex_col3				0.5		0.5		0.5
+	square					2
+	z_min					0
+	z_max					90
+
+object
+	name					verre_pied
+	type					cone
+	color_rgb				0.8		0.8		0.8
+	scale_xyz				1.8		1.8		1.8
+	translate_xyz			10		1.5		0
+	rotation_xyz			90		0		0
+	k_ads					0.2		0.9		0
+	i						0
+	t						0.9
+	shininess				65
+	refraction_index		1.33
+	tex_texture				0
+	tex_bump				0
+	tex_transp				0
+	tex_col1				1		1		1
+	tex_col2				0		0		0
+	tex_col3				0.5		0.5		0.5
+	z_min					0
+	z_max					1
+
+object
+	name					verre_tronc
+	type					cylindre
+	color_rgb				0.8		0.8		0.8
+	scale_xyz				0.15	0.15	0.15
+	translate_xyz			10		5.5		0
+	rotation_xyz			90		0		0
+	k_ads					0.2		0.9		0
+	i						0
+	t						0.9
+	shininess				65
+	refraction_index		1.33
+	tex_texture				0
+	tex_bump				0
+	tex_transp				0
+	tex_col1				1		1		1
+	tex_col2				0		0		0
+	tex_col3				0.5		0.5		0.5
+	square					2
+	z_min					0
+	z_max					27.5
+
+
+object
+	name					verre_ballon
+	type					cone
+	color_rgb				1		1		1
+	scale_xyz				1.8		1.8		1.8
+	translate_xyz			10		5.3		0
+	rotation_xyz			-90		0		-90
+	k_ads					0.2		0.9		0
+	i						0
+	t						0.9
+	shininess				65
+	refraction_index		1.33
+	tex_texture				0
+	tex_bump				0
+	tex_transp				0
+	tex_col1				1		1		1
+	tex_col2				0		0		0
+	tex_col3				0.5		0.5		0.5
+	z_min					0
+	z_max					1.3
+
+object
+	name					plan
+	type					plane
+	color_rgb				0.9		0.9		0.9
+	scale_xyz				1		1		1
+	translate_xyz			0		0		0
+	rotation_xyz			0		180		90
+	k_ads					0.2		0.9		0
+	i						0
+	t						0
+	shininess				65
+	refraction_index		1.33
+	tex_texture				1
+	tex_bump				0
+	tex_transp				0
+	tex_col1				1		1		1
+	tex_col2				0		0		0
+	tex_col3				0.5		0.5		0.5
+	square					1
